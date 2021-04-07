@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<archive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="proiect.jsimg" timestamp="Wed Apr 07 22:11:39 EEST 2021" xsi:noNamespaceSchemaLocation="Archive.xsd">
+<archive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="proiect.jsimg" timestamp="Wed Apr 07 22:31:12 EEST 2021" xsi:noNamespaceSchemaLocation="Archive.xsd">
 <sim disableStatisticStop="false" logDecimalSeparator="." logDelimiter="," logPath="C:\Users\Denisu\JMT" logReplaceMode="0" maxEvents="-1" maxSamples="1000000" name="proiect.jsimg" polling="1.0" xsi:noNamespaceSchemaLocation="SIMmodeldefinition.xsd">
-<node name="Source 1">
-<section className="RandomSource">
-<parameter array="true" classPath="jmt.engine.NetStrategies.ServiceStrategy" name="ServiceStrategy"/>
-</section>
-<section className="ServiceTunnel"/>
-<section className="Router">
-<parameter array="true" classPath="jmt.engine.NetStrategies.RoutingStrategy" name="RoutingStrategy"/>
-</section>
-</node>
-<node name="Source 2">
+<node name="Source 4">
 <section className="RandomSource">
 <parameter array="true" classPath="jmt.engine.NetStrategies.ServiceStrategy" name="ServiceStrategy"/>
 </section>
@@ -28,7 +19,7 @@
 <parameter array="true" classPath="jmt.engine.NetStrategies.RoutingStrategy" name="RoutingStrategy"/>
 </section>
 </node>
-<node name="Source 4">
+<node name="Source 2">
 <section className="RandomSource">
 <parameter array="true" classPath="jmt.engine.NetStrategies.ServiceStrategy" name="ServiceStrategy"/>
 </section>
@@ -37,27 +28,16 @@
 <parameter array="true" classPath="jmt.engine.NetStrategies.RoutingStrategy" name="RoutingStrategy"/>
 </section>
 </node>
-<node name="Node 1">
-<section className="Queue">
-<parameter classPath="java.lang.Integer" name="size">
-<value>-1</value>
-</parameter>
-<parameter array="true" classPath="java.lang.String" name="dropStrategies"/>
-<parameter classPath="jmt.engine.NetStrategies.QueueGetStrategies.FCFSstrategy" name="FCFSstrategy"/>
-<parameter array="true" classPath="jmt.engine.NetStrategies.QueuePutStrategy" name="QueuePutStrategy"/>
-</section>
-<section className="Server">
-<parameter classPath="java.lang.Integer" name="maxJobs">
-<value>1</value>
-</parameter>
-<parameter array="true" classPath="java.lang.Integer" name="numberOfVisits"/>
+<node name="Source 1">
+<section className="RandomSource">
 <parameter array="true" classPath="jmt.engine.NetStrategies.ServiceStrategy" name="ServiceStrategy"/>
 </section>
+<section className="ServiceTunnel"/>
 <section className="Router">
 <parameter array="true" classPath="jmt.engine.NetStrategies.RoutingStrategy" name="RoutingStrategy"/>
 </section>
 </node>
-<node name="Node 2">
+<node name="Node 4">
 <section className="Queue">
 <parameter classPath="java.lang.Integer" name="size">
 <value>-1</value>
@@ -97,7 +77,27 @@
 <parameter array="true" classPath="jmt.engine.NetStrategies.RoutingStrategy" name="RoutingStrategy"/>
 </section>
 </node>
-<node name="Node 4">
+<node name="Node 2">
+<section className="Queue">
+<parameter classPath="java.lang.Integer" name="size">
+<value>-1</value>
+</parameter>
+<parameter array="true" classPath="java.lang.String" name="dropStrategies"/>
+<parameter classPath="jmt.engine.NetStrategies.QueueGetStrategies.FCFSstrategy" name="FCFSstrategy"/>
+<parameter array="true" classPath="jmt.engine.NetStrategies.QueuePutStrategy" name="QueuePutStrategy"/>
+</section>
+<section className="Server">
+<parameter classPath="java.lang.Integer" name="maxJobs">
+<value>1</value>
+</parameter>
+<parameter array="true" classPath="java.lang.Integer" name="numberOfVisits"/>
+<parameter array="true" classPath="jmt.engine.NetStrategies.ServiceStrategy" name="ServiceStrategy"/>
+</section>
+<section className="Router">
+<parameter array="true" classPath="jmt.engine.NetStrategies.RoutingStrategy" name="RoutingStrategy"/>
+</section>
+</node>
+<node name="Node 1">
 <section className="Queue">
 <parameter classPath="java.lang.Integer" name="size">
 <value>-1</value>
@@ -149,64 +149,74 @@
 <node name="Sink 0">
 <section className="JobSink"/>
 </node>
-<node name="Sink 1">
-<section className="JobSink"/>
-</node>
-<node name="Sink 2">
+<node name="Sink 4">
 <section className="JobSink"/>
 </node>
 <node name="Sink 3">
 <section className="JobSink"/>
 </node>
-<node name="Sink 4">
+<node name="Sink 2">
 <section className="JobSink"/>
 </node>
+<node name="Sink 1">
+<section className="JobSink"/>
+</node>
+<connection source="Source 4" target="Node 4"/>
+<connection source="Source 3" target="Node 3"/>
+<connection source="Source 2" target="Node 2"/>
+<connection source="Source 1" target="Node 1"/>
+<connection source="Node 4" target="Sink 4"/>
+<connection source="Node 3" target="Sink 3"/>
+<connection source="Node 2" target="Sink 2"/>
+<connection source="Node 1" target="Sink 1"/>
+<connection source="Node 0" target="Sink 0"/>
+<connection source="Source 0" target="Node 0"/>
 </sim>
 <jmodel xsi:noNamespaceSchemaLocation="JModelGUI.xsd">
-<station name="Source 1">
-<position angle="0.0" rotate="false" x="97.0" y="80.0"/>
-</station>
-<station name="Source 2">
-<position angle="0.0" rotate="false" x="129.0" y="426.0"/>
+<station name="Source 4">
+<position angle="0.0" rotate="false" x="25.0" y="505.0"/>
 </station>
 <station name="Source 3">
-<position angle="0.0" rotate="false" x="937.0" y="68.0"/>
+<position angle="0.0" rotate="false" x="25.0" y="402.0"/>
 </station>
-<station name="Source 4">
-<position angle="0.0" rotate="false" x="947.0" y="424.0"/>
+<station name="Source 2">
+<position angle="0.0" rotate="false" x="25.0" y="299.0"/>
 </station>
-<station name="Node 1">
-<position angle="0.0" rotate="false" x="241.0" y="88.0"/>
-</station>
-<station name="Node 2">
-<position angle="0.0" rotate="false" x="287.0" y="422.0"/>
-</station>
-<station name="Node 3">
-<position angle="0.0" rotate="false" x="1058.0" y="77.0"/>
+<station name="Source 1">
+<position angle="0.0" rotate="false" x="25.0" y="196.0"/>
 </station>
 <station name="Node 4">
-<position angle="0.0" rotate="false" x="1082.0" y="434.0"/>
+<position angle="0.0" rotate="false" x="147.0" y="502.0"/>
+</station>
+<station name="Node 3">
+<position angle="0.0" rotate="false" x="147.0" y="399.0"/>
+</station>
+<station name="Node 2">
+<position angle="0.0" rotate="false" x="147.0" y="296.0"/>
+</station>
+<station name="Node 1">
+<position angle="0.0" rotate="false" x="147.0" y="193.0"/>
 </station>
 <station name="Node 0">
-<position angle="0.0" rotate="false" x="613.0" y="238.0"/>
+<position angle="0.0" rotate="false" x="147.0" y="90.0"/>
 </station>
 <station name="Source 0">
-<position angle="0.0" rotate="false" x="461.0" y="231.0"/>
+<position angle="0.0" rotate="false" x="25.0" y="93.0"/>
 </station>
 <station name="Sink 0">
-<position angle="0.0" rotate="false" x="774.0" y="264.0"/>
-</station>
-<station name="Sink 1">
-<position angle="0.0" rotate="false" x="398.0" y="103.0"/>
-</station>
-<station name="Sink 2">
-<position angle="0.0" rotate="false" x="433.0" y="438.0"/>
-</station>
-<station name="Sink 3">
-<position angle="0.0" rotate="false" x="1194.0" y="90.0"/>
+<position angle="0.0" rotate="false" x="312.0" y="93.0"/>
 </station>
 <station name="Sink 4">
-<position angle="0.0" rotate="false" x="1202.0" y="438.0"/>
+<position angle="0.0" rotate="false" x="312.0" y="505.0"/>
+</station>
+<station name="Sink 3">
+<position angle="0.0" rotate="false" x="312.0" y="402.0"/>
+</station>
+<station name="Sink 2">
+<position angle="0.0" rotate="false" x="312.0" y="299.0"/>
+</station>
+<station name="Sink 1">
+<position angle="0.0" rotate="false" x="312.0" y="196.0"/>
 </station>
 </jmodel>
 </archive>
