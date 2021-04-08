@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<archive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="proiect.jsimg" timestamp="Thu Apr 08 00:16:42 EEST 2021" xsi:noNamespaceSchemaLocation="Archive.xsd">
+<archive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="proiect.jsimg" timestamp="Thu Apr 08 21:09:01 EEST 2021" xsi:noNamespaceSchemaLocation="Archive.xsd">
 <sim disableStatisticStop="false" logDecimalSeparator="." logDelimiter="," logPath="C:\Users\Denisu\JMT" logReplaceMode="0" maxEvents="-1" maxSamples="1000000" name="proiect.jsimg" polling="1.0" xsi:noNamespaceSchemaLocation="SIMmodeldefinition.xsd">
 <userClass name="source 0" priority="0" referenceSource="Source 0" type="open"/>
 <userClass name="source 1" priority="0" referenceSource="Source 1" type="open"/>
@@ -2026,100 +2026,103 @@
 <userClass color="#FFFF00FF" name="source 3"/>
 <userClass color="#FFFFC800" name="source 4"/>
 <station name="Source 4">
-<position angle="0.0" rotate="false" x="25.0" y="505.0"/>
+<position angle="0.0" rotate="false" x="23.0" y="576.0"/>
 </station>
 <station name="Source 3">
-<position angle="0.0" rotate="false" x="25.0" y="402.0"/>
+<position angle="0.0" rotate="false" x="23.0" y="473.0"/>
 </station>
 <station name="Source 2">
-<position angle="0.0" rotate="false" x="25.0" y="299.0"/>
+<position angle="0.0" rotate="false" x="23.0" y="370.0"/>
 </station>
 <station name="Source 1">
-<position angle="0.0" rotate="false" x="25.0" y="196.0"/>
+<position angle="0.0" rotate="false" x="23.0" y="267.0"/>
 </station>
 <station name="Node 4">
-<position angle="0.0" rotate="false" x="296.0" y="502.0"/>
+<position angle="0.0" rotate="false" x="427.0" y="113.0"/>
 </station>
 <station name="Node 3">
-<position angle="0.0" rotate="false" x="491.0" y="397.0"/>
+<position angle="0.0" rotate="false" x="287.0" y="136.0"/>
 </station>
 <station name="Node 2">
-<position angle="0.0" rotate="false" x="677.0" y="294.0"/>
+<position angle="0.0" rotate="false" x="567.0" y="90.0"/>
 </station>
 <station name="Node 1">
-<position angle="0.0" rotate="false" x="843.0" y="192.0"/>
+<position angle="0.0" rotate="false" x="707.0" y="198.0"/>
 </station>
 <station name="Node 0">
-<position angle="0.0" rotate="false" x="1001.0" y="89.0"/>
+<position angle="0.0" rotate="false" x="147.0" y="136.0"/>
 </station>
 <station name="Source 0">
 <position angle="0.0" rotate="false" x="25.0" y="93.0"/>
 </station>
 <station name="Sink 0">
-<position angle="0.0" rotate="false" x="1230.0" y="93.0"/>
+<position angle="0.0" rotate="false" x="297.0" y="597.0"/>
 </station>
 <station name="Sink 4">
-<position angle="0.0" rotate="false" x="1230.0" y="505.0"/>
+<position angle="0.0" rotate="false" x="592.0" y="297.0"/>
 </station>
 <station name="Sink 3">
-<position angle="0.0" rotate="false" x="1230.0" y="402.0"/>
+<position angle="0.0" rotate="false" x="456.0" y="404.0"/>
 </station>
 <station name="Sink 2">
-<position angle="0.0" rotate="false" x="1230.0" y="299.0"/>
+<position angle="0.0" rotate="false" x="732.0" y="93.0"/>
 </station>
 <station name="Sink 1">
-<position angle="0.0" rotate="false" x="1230.0" y="196.0"/>
+<position angle="0.0" rotate="false" x="872.0" y="201.0"/>
 </station>
 </jmodel>
-<results elapsedTime="1806" logDecimalSeparator="." logDelimiter="," pollingInterval="1.0" xsi:noNamespaceSchemaLocation="Results.xsd">
-<measure alpha="0.99" analyzedSamples="61440" discardedSamples="230" finalValue="0.008323915241012659" name="Node 0_Response Time" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 0" state="1" type="2">
-<sample lastIntervalAvgValue="0.008406614893081983" lowerBound="0.008110584376132218" meanValue="0.008393184315236621" simulationTime="4533.6859072144625" upperBound="0.008675784254341025"/>
-<sample lastIntervalAvgValue="0.008281100779923459" lowerBound="0.00820023924473812" meanValue="0.008323915241012659" simulationTime="8359.825361516692" upperBound="0.008447591237287198"/>
+<results elapsedTime="2315" logDecimalSeparator="." logDelimiter="," pollingInterval="1.0" xsi:noNamespaceSchemaLocation="Results.xsd">
+<measure alpha="0.99" analyzedSamples="61440" discardedSamples="235" finalValue="0.008320352835691805" name="Node 0_Response Time" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 0" state="1" type="2">
+<sample lastIntervalAvgValue="0.008294970817383597" lowerBound="0.007959247112851228" meanValue="0.00834015740957743" simulationTime="3891.209864089264" upperBound="0.008721067706303633"/>
+<sample lastIntervalAvgValue="0.008346343068667597" lowerBound="0.008149884025120412" meanValue="0.008320352835691805" simulationTime="8221.336671081193" upperBound="0.008490821646263198"/>
 </measure>
-<measure alpha="0.99" analyzedSamples="61440" discardedSamples="315" finalValue="0.008347366871472525" name="Node 1_Response Time" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 1" state="1" type="2">
-<sample lastIntervalAvgValue="0.008421051442491327" lowerBound="0.008070822351596268" meanValue="0.008407958569092279" simulationTime="4533.674041963497" upperBound="0.00874509478658829"/>
-<sample lastIntervalAvgValue="0.008294777567170562" lowerBound="0.008205978285315935" meanValue="0.008347366871472525" simulationTime="8368.895949474509" upperBound="0.008488755457629114"/>
+<measure alpha="0.99" analyzedSamples="40960" discardedSamples="45" finalValue="0.008379871879111527" name="Node 1_Response Time" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 1" state="1" type="2">
+<sample lastIntervalAvgValue="0.00840428553325456" lowerBound="0.008053950255187528" meanValue="0.008405235470899764" simulationTime="3890.4676464931713" upperBound="0.008756520686612"/>
+<sample lastIntervalAvgValue="0.00825553038803962" lowerBound="0.00819171537874088" meanValue="0.008379871879111527" simulationTime="5508.4737936367455" upperBound="0.008568028379482175"/>
 </measure>
-<measure alpha="0.99" analyzedSamples="51200" discardedSamples="10" finalValue="0.008364626604909267" name="Node 2_Response Time" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 2" state="1" type="2">
-<sample lastIntervalAvgValue="0.008355365154398551" lowerBound="0.007980621177383948" meanValue="0.008340963829832635" simulationTime="4533.695585845639" upperBound="0.008701306482281321"/>
-<sample lastIntervalAvgValue="0.008331071826653477" lowerBound="0.008207566780735547" meanValue="0.008364626604909267" simulationTime="6964.943318450142" upperBound="0.008521686429082987"/>
+<measure alpha="0.99" analyzedSamples="61440" discardedSamples="75" finalValue="0.008375356252297992" name="Node 2_Response Time" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 2" state="1" type="2">
+<sample lastIntervalAvgValue="0.00839532175409776" lowerBound="0.00814305521332821" meanValue="0.008477265904522784" simulationTime="3891.1853454335615" upperBound="0.008811476595717358"/>
+<sample lastIntervalAvgValue="0.008371445596526202" lowerBound="0.008218054323139221" meanValue="0.008375356252297992" simulationTime="8251.581388108452" upperBound="0.008532658181456763"/>
 </measure>
-<measure alpha="0.99" analyzedSamples="40960" discardedSamples="15" finalValue="0.008339314890926972" name="Node 3_Response Time" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 3" state="1" type="2">
-<sample lastIntervalAvgValue="0.008370280009243362" lowerBound="0.008043683898295555" meanValue="0.008404127924329203" simulationTime="4533.69847931146" upperBound="0.00876457195036285"/>
-<sample lastIntervalAvgValue="0.008185581949791148" lowerBound="0.008129133977458052" meanValue="0.008339314890926972" simulationTime="5584.378005302903" upperBound="0.008549495804395891"/>
+<measure alpha="0.99" analyzedSamples="38400" discardedSamples="2230" finalValue="0.008352794578510245" name="Node 3_Response Time" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 3" state="1" type="2">
+<sample lastIntervalAvgValue="0.008347659902426188" lowerBound="0.007941898099854822" meanValue="0.008267439488515327" simulationTime="3891.2047417228473" upperBound="0.008592980877175832"/>
+<sample lastIntervalAvgValue="0.008443762441773608" lowerBound="0.008194419256237762" meanValue="0.008352794578510245" simulationTime="5453.1778837112115" upperBound="0.008511169900782729"/>
 </measure>
-<measure alpha="0.99" analyzedSamples="35840" discardedSamples="535" finalValue="0.008386432662266255" name="Node 4_Response Time" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 4" state="1" type="2">
-<sample lastIntervalAvgValue="0.008378191008179053" lowerBound="0.00796514696521967" meanValue="0.008273668195670096" simulationTime="4533.668094502163" upperBound="0.008582189426120523"/>
-<sample lastIntervalAvgValue="0.00821251831496584" lowerBound="0.008225511681451636" meanValue="0.008386432662266255" simulationTime="4919.79679718708" upperBound="0.008547353643080874"/>
+<measure alpha="0.99" analyzedSamples="30720" discardedSamples="205" finalValue="0.008433568972412802" name="Node 4_Response Time" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 4" state="1" type="2">
+<sample lastIntervalAvgValue="0.008429301327058127" lowerBound="0.008198174662657733" meanValue="0.008455221172212635" simulationTime="3890.5258672489067" upperBound="0.008712267681767537"/>
+<sample lastIntervalAvgValue="0.008414558381017359" lowerBound="0.008183166889507956" meanValue="0.008433568972412802" simulationTime="4139.330704278644" upperBound="0.008683971055317648"/>
 </measure>
-<measure alpha="0.99" analyzedSamples="204800" discardedSamples="705" finalValue="5.179072142711476E-4" name="Node 0_Utilization" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 0" state="1" type="4">
-<sample lastIntervalAvgValue="5.142006774810016E-4" lowerBound="4.967162995277072E-4" meanValue="5.240566324979395E-4" simulationTime="4533.6859072144625" upperBound="5.513969654681718E-4"/>
-<sample lastIntervalAvgValue="5.199914699493152E-4" lowerBound="5.040930900971476E-4" meanValue="5.179072142711476E-4" simulationTime="13823.53773666149" upperBound="5.317213384451475E-4"/>
+<measure alpha="0.99" analyzedSamples="409600" discardedSamples="280" finalValue="5.144783217776661E-4" name="Node 0_Utilization" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 0" state="1" type="4">
+<sample lastIntervalAvgValue="5.14917023476438E-4" lowerBound="4.882721264904777E-4" meanValue="5.185190093851561E-4" simulationTime="3891.209864089264" upperBound="5.487658922798345E-4"/>
+<sample lastIntervalAvgValue="5.136730791361919E-4" lowerBound="4.971201759825485E-4" meanValue="5.142746607630579E-4" simulationTime="17488.72476821039" upperBound="5.314291455435673E-4"/>
+<sample lastIntervalAvgValue="5.171118142369131E-4" lowerBound="5.020342250692117E-4" meanValue="5.144783217776661E-4" simulationTime="27673.27748377077" upperBound="5.269224184861205E-4"/>
 </measure>
-<measure alpha="0.99" analyzedSamples="163840" discardedSamples="1190" finalValue="5.153100715450408E-4" name="Node 1_Utilization" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 1" state="1" type="4">
-<sample lastIntervalAvgValue="5.141098956057259E-4" lowerBound="4.967120922517415E-4" meanValue="5.313861810035511E-4" simulationTime="4533.674041963497" upperBound="5.660602697553608E-4"/>
-<sample lastIntervalAvgValue="5.165442118714657E-4" lowerBound="5.012800346637108E-4" meanValue="5.153100715450408E-4" simulationTime="11178.595891193194" upperBound="5.293401084263707E-4"/>
+<measure alpha="0.99" analyzedSamples="245760" discardedSamples="280" finalValue="5.149892752564268E-4" name="Node 1_Utilization" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 1" state="1" type="4">
+<sample lastIntervalAvgValue="5.236385438386065E-4" lowerBound="4.517129017993822E-4" meanValue="5.106494435884023E-4" simulationTime="3890.4676464931713" upperBound="5.695859853774224E-4"/>
+<sample lastIntervalAvgValue="5.140544878373969E-4" lowerBound="5.014641856668422E-4" meanValue="5.149892752564268E-4" simulationTime="16629.29712201768" upperBound="5.285143648460114E-4"/>
 </measure>
-<measure alpha="0.99" analyzedSamples="143360" discardedSamples="10" finalValue="5.118566642864479E-4" name="Node 2_Utilization" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 2" state="1" type="4">
-<sample lastIntervalAvgValue="5.101891088400318E-4" lowerBound="4.843207602759596E-4" meanValue="5.138757677374322E-4" simulationTime="4533.69847931146" upperBound="5.434307751989049E-4"/>
-<sample lastIntervalAvgValue="5.11521595613132E-4" lowerBound="4.976151241199071E-4" meanValue="5.118566642864479E-4" simulationTime="9758.631597180602" upperBound="5.260982044529886E-4"/>
+<measure alpha="0.99" analyzedSamples="368640" discardedSamples="725" finalValue="5.116139465338801E-4" name="Node 2_Utilization" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 2" state="1" type="4">
+<sample lastIntervalAvgValue="5.197113241871501E-4" lowerBound="4.8799868965282157E-4" meanValue="5.195645063872568E-4" simulationTime="3891.1853454335615" upperBound="5.511303231216921E-4"/>
+<sample lastIntervalAvgValue="5.151901413129986E-4" lowerBound="5.03188888091131E-4" meanValue="5.196503214802398E-4" simulationTime="17488.756659715396" upperBound="5.361117548693485E-4"/>
+<sample lastIntervalAvgValue="5.105718069666931E-4" lowerBound="5.005625460585373E-4" meanValue="5.116139465338801E-4" simulationTime="25024.616549348928" upperBound="5.226653470092229E-4"/>
 </measure>
-<measure alpha="0.99" analyzedSamples="143360" discardedSamples="0" finalValue="5.140186354865324E-4" name="Node 3_Utilization" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 3" state="1" type="4">
-<sample lastIntervalAvgValue="5.135384301221139E-4" lowerBound="4.922127535385813E-4" meanValue="5.288294954804586E-4" simulationTime="4533.69847931146" upperBound="5.65446237422336E-4"/>
-<sample lastIntervalAvgValue="5.144381176114088E-4" lowerBound="5.005215262319567E-4" meanValue="5.140186354865324E-4" simulationTime="9696.94491377086" upperBound="5.275157447411081E-4"/>
+<measure alpha="0.99" analyzedSamples="327680" discardedSamples="590" finalValue="5.118326312316433E-4" name="Node 3_Utilization" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 3" state="1" type="4">
+<sample lastIntervalAvgValue="5.183135635689266E-4" lowerBound="4.5026335249882745E-4" meanValue="5.148600664308746E-4" simulationTime="3891.2047417228473" upperBound="5.794567803629217E-4"/>
+<sample lastIntervalAvgValue="5.122904116019295E-4" lowerBound="5.023090920529288E-4" meanValue="5.205941956372536E-4" simulationTime="17488.94171966631" upperBound="5.388792992215783E-4"/>
+<sample lastIntervalAvgValue="5.181544445225321E-4" lowerBound="4.998059364244903E-4" meanValue="5.118326312316433E-4" simulationTime="22155.718121593116" upperBound="5.238593260387962E-4"/>
 </measure>
-<measure alpha="0.99" analyzedSamples="184320" discardedSamples="610" finalValue="5.157809269313833E-4" name="Node 4_Utilization" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 4" state="1" type="4">
-<sample lastIntervalAvgValue="5.141427044072527E-4" lowerBound="4.896669320773227E-4" meanValue="5.265721352286373E-4" simulationTime="4533.668094502163" upperBound="5.634773383799519E-4"/>
-<sample lastIntervalAvgValue="5.162944806478282E-4" lowerBound="5.038331468172077E-4" meanValue="5.157809269313833E-4" simulationTime="12474.697097926295" upperBound="5.277287070455589E-4"/>
+<measure alpha="0.99" analyzedSamples="163840" discardedSamples="270" finalValue="5.185888894912926E-4" name="Node 4_Utilization" nodeType="station" precision="0.03" referenceClass="" referenceStation="Node 4" state="1" type="4">
+<sample lastIntervalAvgValue="5.25821253399315E-4" lowerBound="4.849684418298297E-4" meanValue="5.205025601388997E-4" simulationTime="3890.5258672489067" upperBound="5.560366784479698E-4"/>
+<sample lastIntervalAvgValue="5.168412209066518E-4" lowerBound="5.045384857227031E-4" meanValue="5.185888894912926E-4" simulationTime="11001.271194257028" upperBound="5.326392932598822E-4"/>
 </measure>
-<measure alpha="0.99" analyzedSamples="51200" discardedSamples="430" finalValue="0.12331254926820227" name="System Response Time" nodeType="" precision="0.03" referenceClass="" referenceStation="" state="1" type="8">
-<sample lastIntervalAvgValue="0.12308536441707213" lowerBound="0.1055463734536723" meanValue="0.1255594808671007" simulationTime="4532.756829987538" upperBound="0.1455725882805291"/>
-<sample lastIntervalAvgValue="0.12365200012886732" lowerBound="0.11947958512234028" meanValue="0.1236960092889233" simulationTime="17461.558685671116" upperBound="0.12791243345550632"/>
-<sample lastIntervalAvgValue="0.1213254147724072" lowerBound="0.12093428779494046" meanValue="0.12331254926820227" simulationTime="20603.901039214812" upperBound="0.12569081074146407"/>
+<measure alpha="0.99" analyzedSamples="40960" discardedSamples="145" finalValue="0.12329900857085363" name="System Response Time" nodeType="" precision="0.03" referenceClass="" referenceStation="" state="1" type="8">
+<sample lastIntervalAvgValue="0.12418644639557687" lowerBound="0.09989819027532656" meanValue="0.12248092257169285" simulationTime="3890.5387011023913" upperBound="0.14506365486805914"/>
+<sample lastIntervalAvgValue="0.1231687311201205" lowerBound="0.12071823989111595" meanValue="0.12329900857085363" simulationTime="16368.150590757585" upperBound="0.1258797772505913"/>
 </measure>
-<measure alpha="0.99" analyzedSamples="40960" discardedSamples="30" finalValue="2.4998849276637394" name="System Throughput" nodeType="" precision="0.03" referenceClass="" referenceStation="" state="1" type="9">
-<sample lastIntervalAvgValue="2.502229972930443" lowerBound="2.407073221911829" meanValue="2.519484441970325" simulationTime="4532.756829987538" upperBound="2.642909294873077"/>
-<sample lastIntervalAvgValue="2.500807436318172" lowerBound="2.457418792672622" meanValue="2.4998849276637394" simulationTime="16388.92758884148" upperBound="2.543844568223463"/>
+<measure alpha="0.99" analyzedSamples="61440" discardedSamples="115" finalValue="2.5025126993568096" name="System Throughput" nodeType="" precision="0.03" referenceClass="" referenceStation="" state="1" type="9">
+<sample lastIntervalAvgValue="2.514818834015887" lowerBound="2.182910353828355" meanValue="2.4831664277058225" simulationTime="3890.5387011023913" upperBound="2.8791954864168763"/>
+<sample lastIntervalAvgValue="2.5126051472525597" lowerBound="2.4088079733142274" meanValue="2.5067798154576217" simulationTime="17488.775589759705" upperBound="2.6130590245523084"/>
+<sample lastIntervalAvgValue="2.493564974755596" lowerBound="2.4605382883251834" meanValue="2.5025126993568096" simulationTime="24549.349578502723" upperBound="2.5459440503501978"/>
 </measure>
 </results>
 </archive>
